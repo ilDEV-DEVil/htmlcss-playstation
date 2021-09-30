@@ -1,0 +1,31 @@
+h2{
+    font-size: 2.5rem;
+}
+
+h3{
+    font-size: 2.3rem;
+}
+
+h4{
+    font-size: 1.3rem;
+}
+
+h5{
+    font-size: 0.9rem;
+}
+
+.nav_black-bar img{
+    width: 100px;  
+    padding:15px;    
+}
+
+.hero{
+    margin-top:96px ;
+    background-image: url(../img/jumbo-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero img{
+    padding-top: 400px !important;
+}
