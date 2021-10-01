@@ -16,8 +16,27 @@ h5{
     font-size: 0.9rem;
 }
 
+.section_title{
+    margin-bottom: 20px !important;
+    margin: 0;
+}
+
+.section_subtitle{
+    margin-bottom:30px !important;
+}
+
 .section_base{
     padding:40px 0;
+}
+
+.section_large{
+    padding:80px 0;
+}
+
+:root{
+    --bs-info-rgb: 22,28,59;
+
+    --bs-body-bg-rgb: 0, 67, 156;
 }
 
 /* FINE UTILITIES */
@@ -28,13 +47,23 @@ h5{
     padding:15px;    
 }
 
-.hero{
-    margin-top:96px ;
+.nav_bar img{
+    width: 50px;
+}
+
+.hero_returnal,.hero_takes{
+    margin-top:92px ;
     background-image: url(../img/jumbo-bg.png);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: top;
 }
 
-.hero img{
+.hero_takes{
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+}
+
+.hero_returnal img{
     padding-top: 200px !important;
 }
+

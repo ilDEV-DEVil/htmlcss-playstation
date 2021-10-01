@@ -12,14 +12,14 @@
 <body>
     
     <header>
-        <div class="container-fluid fixed-top fixed-left">
+        <div class="container-fluid fixed-top fixed-left px-0">
             <div class="nav_black-bar bg-dark text-end w-100"><a href=""><img src="img/sony_logo.svg" alt="Logo SONY"></a></div>
 
-            <div class="nav_bar w-100 bg-white">
+            <div class="nav_bar bg-white d-flex">
                 <a class="d-inline-block" href="#"><img src="img/play_logo.svg" alt="logo Playstation"></a>
                 
-                <div class="d-inline-block">
-                    <ul class="d-inline-block list-inline text-dark">
+                <div class="d-flex flex-grow-1 align-items-center">
+                    <ul class="d-inline-block list-inline text-dark mb-0">
                         <li class="list-inline-item mx-4">Giochi</li>
                         <li class="list-inline-item mx-4">Giochi</li>
                         <li class="list-inline-item mx-4">Giochi</li>
@@ -28,7 +28,7 @@
                         <li class="list-inline-item mx-4">Giochi</li>
                     </ul>
 
-                    <ul class="d-inline-block list-inline">
+                    <ul class="d-inline-block list-inline ms-auto mb-0">
                         <li class="list-inline-item mx-4">Giochi</li>
                         <li class="list-inline-item mx-4"><button>Accedi</button></li>
                         <li class="list-inline-item mx-4">G</li>
@@ -39,16 +39,329 @@
     </header>
 
     <main>
-        <div class="container-fluid">
-            <section class="section_base hero">
+        <!-- RETURNAL -->
+        <div class="container-fluid px-0">
+            <section class="section_base hero_returnal">
                 <div class="container">
-                    <img class="col-3" src="img/returnal-hero-banner-logo.png" alt="logo Returnal">
-                    <h3 class="text-white">Rompi il cerchio</h3>
-                    <p class="col-4 text-white">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla ducimus saepe laborum, iusto maiores minus delectus a fugit tempora iure doloribus. Accusamus veritatis doloremque voluptates quo excepturi quia nobis officiis?</p>
+                    <img class="col-3 section_title" src="img/returnal-hero-banner-logo.png" alt="logo Returnal">
+                    <h3 class="text-white section_title">Rompi il cerchio</h3>
+                    <p class="col-4 text-white section_subtitle">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla ducimus saepe laborum, iusto maiores minus delectus a fugit tempora iure doloribus. Accusamus veritatis doloremque voluptates quo excepturi quia nobis officiis?</p>
                     <button class="btn btn-danger">Acquista ora</button>
                 </div>
+            </section>
+        </div> 
+
+        <!-- SCELTA GIOCO HERO -->
+        <div class="container">
+            <section class="row row-cols-lg-6 row-cols-sm-3 row-cols-2 section_base">
+                <img class="col mb-3" src="img/returnal-listing-thumb-01-ps5.jpg" alt="returnal game">
+                <img class="col mb-3" src="img/ratchet-and-clank-rift-apart-keyart.jpg" alt="returnal game">
+                <img class="col mb-3" src="img/returnal-listing-thumb-01-ps5.jpg" alt="returnal game">
+                <img class="col mb-3" src="img/ratchet-and-clank-rift-apart-keyart.jpg" alt="returnal game">
+                <img class="col mb-3" src="img/returnal-listing-thumb-01-ps5.jpg" alt="returnal game">
+                <img class="col mb-3" src="img/ratchet-and-clank-rift-apart-keyart.jpg" alt="returnal game">
+            </section>
+
+            <!-- PLAY STATION 5 -->
+            <section class="row text-center section_base">
+                <h6 class="text-primary m-0">PLAY HAS NO LIMITS</h6>
+                <h2 class="section_title">Ecco la Playstation 5</h2>
+                <p>Tuffati in nuove possibilità di gioco completamente inaspettate</p>
+            </section>
+
+            <section class="">
+                <div class="row row-cols-md-2 row-cols-md-1 align-items-center">
+                    <div class="col-md-5 col-12">
+                        <h2 class="section_title">Console Playstation 5</h2>
+                        <p class="section_title">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia, dolor repudiandae</p>
+                        <button class="btn btn-primary">Maggiori informazioni</button>
+                    </div>
+
+                    <div class="col-md-7 col-12">
+                        <img class="w-100" src="img/playstation-5-thumb.png" alt="playstation 5">
+                    </div>
+                </div>
+            </section>
+
+            <!-- SCELTA DISPOSITIVO HERO -->
+            <section class="row row-cols-md-5 row-cols-3 section_base">
+                <div class="col">
+                    <img class="w-100" src="img/playstation-5-thumb.png" alt="returnal game">
+                    <p class="text-center">Console PS5</p>
+                </div>
+
+                <div class="col">
+                    <img class="w-100" src="img/playstation-5-thumb.png" alt="returnal game">
+                    <p class="text-center">Console PS5</p>
+                </div>
+
+                <div class="col">
+                    <img class="w-100" src="img/playstation-5-thumb.png" alt="returnal game">
+                    <p class="text-center">Console PS5</p>
+                </div>
+                
+                <div class="col">
+                    <img class="w-100" src="img/playstation-5-thumb.png" alt="returnal game">
+                    <p class="text-center">Console PS5</p>
+                </div>
+
+                <div class="col">
+                    <img class="w-100" src="img/playstation-5-thumb.png" alt="returnal game">
+                    <p class="text-center">Console PS5</p>
+                </div>
+            </section>
+        </div>
+
+        <!-- IT TAKES  TWO -->
+        <div class="container-fluid px-0">
+            <section class="section_base hero_takes">
+                <div class="container">
+                    <img class="col-lg-3 col-9  section_title" src="img/it-takes-two-logo.png" alt="logo Returnal">
+                    <h3 class="text-white section_title col-4">Un'avventura cooperativa selvaggia ti attende</h3>
+                    <p class="col-4 text-white section_subtitle">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla ducimus saepe laborum, iusto maiores minus delectus a fugit tempora iure doloribus. Accusamus veritatis doloremque voluptates quo excepturi quia nobis officiis?</p>
+                    <button class="btn btn-danger">Acquista ora</button>ciao
+                </div>
+            </section>
+        </div> 
+
+        <!-- NUOVE USCITE -->
+        <div class="container-fluid bg-dark px-0">
+
+            <div class="container section_base">
+                <h2 class="section_title text-white">Ecco la Playstation 5</h2>
+                <p class="text-white">Tuffati in nuove possibilità di gioco completamente inaspettate</p>
+                
+                <section class="row row-cols-lg-6 section_base">
+                    <div class="col mb-4">
+                        <img class="w-100" src="img/tony-hawks-pro-skater-1-2-store-art.jpg" alt="returnal game">
+                        <p class="my-3 text-white">Tony Hawk's Pro Skater 1+2</p>
+                    </div>
+    
+                    <div class="col mb-4">
+                        <img class="w-100" src="img/crash-bandicoot-4-its-about-time-store-art.jpg" alt="returnal game">
+                        <p class="my-3 text-white">Console PS5</p>
+                    </div>
+
+                    <div class="col mb-4">
+                        <img class="w-100" src="img/tony-hawks-pro-skater-1-2-store-art.jpg" alt="returnal game">
+                        <p class="my-3 text-white">Tony Hawk's Pro Skater 1+2</p>
+                    </div>
+    
+                    <div class="col mb-4">
+                        <img class="w-100" src="img/crash-bandicoot-4-its-about-time-store-art.jpg" alt="returnal game">
+                        <p class="my-3 text-white">Console PS5</p>
+                    </div>
+
+                    <div class="col mb-4">
+                        <img class="w-100" src="img/tony-hawks-pro-skater-1-2-store-art.jpg" alt="returnal game">
+                        <p class="my-3 text-white">Tony Hawk's Pro Skater 1+2</p>
+                    </div>
+    
+                    <div class="col mb-4">
+                        <img class="w-100" src="img/crash-bandicoot-4-its-about-time-store-art.jpg" alt="returnal game">
+                        <p class="my-3 text-white">Console PS5</p>
+                    </div>
+
+                    <div class="col mb-4">
+                        <img class="w-100" src="img/tony-hawks-pro-skater-1-2-store-art.jpg" alt="returnal game">
+                        <p class="my-3 text-white">Tony Hawk's Pro Skater 1+2</p>
+                    </div>
+    
+                    <div class="col mb-4">
+                        <img class="w-100" src="img/crash-bandicoot-4-its-about-time-store-art.jpg" alt="returnal game">
+                        <p class="my-3 text-white">Console PS5</p>
+                    </div>
+
+                    <div class="col mb-4">
+                        <img class="w-100" src="img/tony-hawks-pro-skater-1-2-store-art.jpg" alt="returnal game">
+                        <p class="my-3 text-white">Tony Hawk's Pro Skater 1+2</p>
+                    </div>
+    
+                    <div class="col mb-4">
+                        <img class="w-100" src="img/crash-bandicoot-4-its-about-time-store-art.jpg" alt="returnal game">
+                        <p class="my-3 text-white">Console PS5</p>
+                    </div>
+
+                    <div class="col mb-4">
+                        <img class="w-100" src="img/tony-hawks-pro-skater-1-2-store-art.jpg" alt="returnal game">
+                        <p class="my-3 text-white">Tony Hawk's Pro Skater 1+2</p>
+                    </div>
+    
+                    <div class="col mb-4">
+                        <img class="w-100" src="img/crash-bandicoot-4-its-about-time-store-art.jpg" alt="returnal game">
+                        <p class="my-3 text-white">Console PS5</p>
+                    </div>
+                </section>
+            </div>      
+        </div>
+          
+        <!-- PLAYSTATION 4 -->
+        <div class="container">
+            <section class="row section_large">
+                <div class="text-center">
+                    <h2 class="section_title">Ecco la Playstation 4</h2>
+                    <p class="section_subtitle">Tuffati in nuove possibilità di gioco completamente inaspettate</p>
+                </div>
+                
+                <div class="row row-cols-3">
+                    <div class="col mb-4">
+                        <img class="w-100" src="img/ps4-slim-homepage-image-block.jpg" alt="returnal game">
+                        <h3 class="section_title">PlayStation 4</h3>
+                        <p class="text-secondary section_subtitle">Console PS5</p>
+                        <button type="button" class="btn btn-primary">Scopri di più</button>
+                    </div> 
+                    
+                    <div class="col mb-4">
+                        <img class="w-100" src="img/ps4-slim-homepage-image-block.jpg" alt="returnal game">
+                        <h3 class="section_title">PlayStation 4</h3>
+                        <p class="text-secondary section_subtitle">Console PS5</p>
+                        <button type="button" class="btn btn-primary">Scopri di più</button>
+                    </div> 
+
+                    <div class="col mb-4">
+                        <img class="w-100" src="img/ps4-slim-homepage-image-block.jpg" alt="returnal game">
+                        <h3 class="section_title">PlayStation 4</h3>
+                        <p class="text-secondary section_subtitle">Console PS5</p>
+                        <button type="button" class="btn btn-primary">Scopri di più</button>
+                    </div> 
+                </div>
+            </section>
+        </div>
+
+        <!-- PLAYSTATION PLUS -->
+        <div class="container-fluid px-0 bg-secondary">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-5">
+                        <img class="section_title col-6" src="img/ps-plus-logo.png" alt="logo Playstatio Plus">
+                        <p class="section_title">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia, dolor repudiandae</p>
+                        <button class="btn btn-light text-primary">Maggiori informazioni</button>
+                    </div>
+
+                    <div class="col-7">
+                        <img class="w-100" src="img/ps-plus-april-monthly-games-featured-image-block.png" alt="playstation 5">
+                    </div>
+                </div>
+            </div> 
+        </div>
+
+        <div class="container">
+            <section class="section_large">
+
+                <div class="text-center">
+                    <h2 class="section_title">Nuovi sconti sul PlayStation Store</h2>
+                    <p class="section_subtitle">Tuffati in nuove possibilità di gioco completamente inaspettate</p>
+                </div>
+                
+                
+                <div class="row row-cols-3">
+                    <div class="col mb-4">
+                        <img class="w-100" src="img/playstation-store-games-under-20-spotlight.jpg" alt="returnal game">
+                    </div> 
+                    
+                    <div class="col mb-4">
+                        <img class="w-100" src="img/playstation-store-golden-week-sale-spotlight.jpg" alt="returnal game">
+                    </div> 
+
+                    <div class="col mb-4">
+                        <img class="w-100" src="img/playstation-store-free-to-play-spotlight.png" alt="returnal game">
+                    </div> 
+                </div>
+            </section> 
+        </div>
+
+        <!-- PLAYSTATION NOW -->
+        <div class="container-fluid bg-info">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-5">
+                        <img class="section_title col-6" src="img/ps-now-logo-two-column.png" alt="logo Playstatio Plus">
+                        <p class="section_title text-white">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia, dolor repudiandae</p>
+                        <button class="btn btn-light">Maggiori informazioni</button>
+                    </div>
+
+                    <div class="col-7">
+                        <img class="w-100" src="img/ps-now-april-featured-image-block.png" alt="playstation 5">
+                    </div>
+                </div>
+            </div> 
+        </div>
+
+        <!-- SOCIAL -->
+        <div class="container">
+            <section class="section_large col-lg-6 offset-lg-3 col-12">
+
+                <h3 class="text-center section_title">Seguici sui social media</h3>
+                
+                <div class="section_base row row-cols-lg-4 row-cols-2">
+                    <img class="col" src="img/twitter.jpg" alt="">
+                    <img class="col" src="img/twitter.jpg" alt="">
+                    <img class="col" src="img/twitter.jpg" alt="">
+                    <img class="col" src="img/twitter.jpg" alt="">
+                    
+                </div>
+            </section>
+        </div>
+
+        <div class="container-fluid bg-body">
+            <div class="container">
+                <section class="section_large">
+
+                    <div class="row row-cols-lg-2">
+                        <div class="col-6">
+                            <img class="col-2 section_subtitle" src="img/ps-footer.svg" alt="Logo PlayStation">
+                            <p class="text-white">Conutry/Region: Italy</p>
+                        </div>
+
+                        <div class="col-6">
+                            <div class="row row-cols-3">
+                                <ul class="col">
+                                    <li class="list-unstyled text-white mb-1">Link footer n</li>
+                                    <li class="list-unstyled text-white mb-1">Link footer n</li>
+                                    <li class="list-unstyled text-white mb-1">Link footer n</li>
+                                    <li class="list-unstyled text-white mb-1">Link footer n</li>
+                                    <li class="list-unstyled text-white mb-1">Link footer n</li>
+                                    <li class="list-unstyled text-white mb-1">Link footer n</li>
+                                </ul>
+
+                                <ul class="col">
+                                    <li class="list-unstyled text-white mb-1">Link footer n</li>
+                                    <li class="list-unstyled text-white mb-1">Link footer n</li>
+                                    <li class="list-unstyled text-white mb-1">Link footer n</li>
+                                    <li class="list-unstyled text-white mb-1">Link footer n</li>
+                                    <li class="list-unstyled text-white mb-1">Link footer n</li>
+                                    <li class="list-unstyled text-white mb-1">Link footer n</li>
+                                    <li class="list-unstyled text-white mb-1">Link footer n</li>
+                                    <li class="list-unstyled text-white mb-1">Link footer n</li>
+                                </ul>
+
+                                <ul class="col">
+                                    <li class="list-unstyled text-white mb-1">Link footer n</li>
+                                    <li class="list-unstyled text-white mb-1">Link footer n</li>
+                                    <li class="list-unstyled text-white mb-1">Link footer n</li>
+                                </ul>
+                            </div>
+
+                            
+
+                        </div>    
+                    </div>
+                     <div class="row">
+                        <div class="col-6">
+                            <img class="col-4 section_subtitle" src="img/sie-logo.svg" alt="Logo PlayStation">
+                            <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus excepturi architecto non quasi explicabo recusandae, culpa deleniti ad sapiente reiciendis tempora quidem officia sed magnam ipsam. Aperiam vitae natus praesentium.</p>
+                        </div>
+                     </div>
+
+                </section>
+                    
+
             </div>
-        </section>
+
+        </div>
+           
+                
+
                 
 
         
