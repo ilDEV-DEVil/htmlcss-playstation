@@ -40,15 +40,18 @@ h5{
 }
 
 /* FINE UTILITIES */
-/* .my_nav{
+.my_nav{
     position: fixed;
     top: 0;
 }
- */
+
+
 .nav_black-bar img{
     width: 100px;  
     padding:15px;    
 }
+
+
 
 .nav_bar img{
     width: 50px;
