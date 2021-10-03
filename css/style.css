@@ -33,6 +33,14 @@ h5{
     padding:80px 0;
 }
 
+.my_section_plus{
+    padding:60px 0 ;
+}
+
+.rounded-4{
+    border-radius: 10%;
+}
+
 :root{
     --bs-info-rgb: 22,28,59;
 
@@ -40,21 +48,18 @@ h5{
 }
 
 /* FINE UTILITIES */
-.my_nav{
-    position: fixed;
-    top: 0;
-}
-
 
 .nav_black-bar img{
     width: 100px;  
     padding:15px;    
 }
 
-
-
 .nav_bar img{
     width: 50px;
+}
+
+.nav_bar ul li a img{
+    width: 10px;
 }
 
 .hero_returnal,.hero_takes{
