@@ -66,9 +66,34 @@ h5{
     width: 50px;
 }
 
+.nav_bar li:hover a{
+    color:#0d6efd ;
+}
+
+.nav_bar li .arrow_blue{
+    display: none;
+}
+
+.nav_bar li:hover .arrow_blue{
+    display: inline-block;
+}
+
+.nav_bar li:hover .arrow_grey{
+    display: none;
+}
+
 .nav_bar ul li a img{
     width: 10px;
 }
+
+.nav_container_accordions{
+    background-color: white;
+}
+
+.nav_container_accordions img{
+    width: 50px;
+}
+
 
 .hero_returnal,.hero_takes{
     margin-top:92px ;
